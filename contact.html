@@ -91,8 +91,8 @@
 					</div>
 				</div>
 				<div class="col-md-8 col-sm-6 col-xs-12">
-				  <form action="//formspree.io/freektopia@gmail.com"
-                   method="POST"class="contact-form">
+				  <form id="contactform" action="//formspree.io/freektopia@gmail.com"
+                   method="POST">
 					 <div class="row">
 						 <div class="col-md-6">
 							 <input type="text" name="name" placeholder="Name" required>
@@ -103,13 +103,13 @@
 					 </div>
 					 <div class="row">
 					 	<div class="col-md-12">
-					 		<textarea name="message" rows="5" placeholder="Your message"></textarea>
+					 		<textarea placeholder="Your message"></textarea>
 					 	</div>
 					 </div>
 					 <div class="row">
 					    <div class="col-md-3">
-					    	<input type="text" name="_gotcha" style="display:none">
 					    	<input type="submit" value="Send">
+					    	<input type="hidden" name="_subject" value="Website contact" />
 					    </div>
 					 </div>
 				   </form>
