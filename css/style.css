@@ -87,7 +87,7 @@ p {font-size: 14px; line-height: 25px; color:#6b6b6b; font-weight: 100;}
 ul {position: relative; float: left;}
 ul li a:hover {text-decoration: none; transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in;-ms-transition: all 0.3s ease-in;}
 input {font-size: 14px; border: none; background: none;transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out;-o-transition: all 0.35s ease-out;-webkit-transition: all 0.35s ease-out;-ms-transition: all 0.35s ease-out;}
-textarea {font-size: 13px; line-height: 26px; border: none; border-bottom: 1px solid #ccc; color: #aaa;text-transform: uppercase; padding-left: 5px; padding-bottom: 10px; background: none;}
+textarea {font-size: 13px; line-height: 26px; border: none; border-bottom: 1px solid #ccc; color: #aaa;text-transform: inherit; padding-left: 5px; padding-bottom: 10px; background: none;}
 iframe {border: none;}
 q {font-size: 24px; line-height: 50px; font-family: 'Libre Baskerville', serif; color: #000; font-style: italic;}
 i {font-family: 'Libre Baskerville', serif; font-size: 18px;}
