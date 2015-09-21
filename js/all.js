@@ -386,7 +386,7 @@
 				 
     function setTimer(){					   	
 		var today = new Date();
-		var finalTime = new Date("May,27,2015");
+		var finalTime = new Date("Oct,31,2015");
 		var interval = finalTime - today;
 		if(interval<0) interval = 0;
 		var days = parseInt(interval/(1000*60*60*24));
