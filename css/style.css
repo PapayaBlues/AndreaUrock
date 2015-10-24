@@ -129,7 +129,7 @@ i {font-family: 'Libre Baskerville', serif; font-size: 18px;}
 
 header {position: fixed; left: 0px; top: -1px; height: 75px; width: 100%; z-index: 100; transition: all 0.4s ease-in;-webkit-transition: all 0.4s ease-in;-moz-transition: all 0.4s ease-in;-o-transition: all 0.4s ease-in;-ms-transition: all 0.4s ease-in;}
 .nav {position: relative; float: left; width: 100%; padding-top: 0px; backface-visibility: hidden; transform: translateZ(0);}
-.nav a {font-size: 14px; color: #fff; font-weight: 400; text-transform: uppercase; margin: 30px 53px; position: relative; float: left; letter-spacing: 1px;}
+.nav a {font-size: 14px; color: #fff; font-weight: 400; text-transform: uppercase; margin: 30px 55px; position: relative; float: left; letter-spacing: 1px;}
 .nav a.active-link {font-weight: 700;}
 .nav a::before {position: absolute;top: 0;left: 0;overflow: hidden;max-width: 0;border-bottom: 2px solid #b1b1b1;color: #b1b1b1;content: attr(data-hover);-webkit-transition: max-width 0.5s;-moz-transition: max-width 0.5s;transition: max-width 0.5s;}
 .nav a:hover::before,.nav a:focus::before {max-width: 100%;}
