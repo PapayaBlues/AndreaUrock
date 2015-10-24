@@ -1,4 +1,4 @@
-/*STYLE.CSS*/
+ /*STYLE.CSS*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*This is main CSS file that contains custom style rules used in this template*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -129,7 +129,7 @@ i {font-family: 'Libre Baskerville', serif; font-size: 18px;}
 
 header {position: fixed; left: 0px; top: -1px; height: 75px; width: 100%; z-index: 100; transition: all 0.4s ease-in;-webkit-transition: all 0.4s ease-in;-moz-transition: all 0.4s ease-in;-o-transition: all 0.4s ease-in;-ms-transition: all 0.4s ease-in;}
 .nav {position: relative; float: left; width: 100%; padding-top: 0px; backface-visibility: hidden; transform: translateZ(0);}
-.nav a {font-size: 14px; color: #fff; font-weight: 400; text-transform: uppercase; margin: 30px 57px; position: relative; float: left; letter-spacing: 1px;}
+.nav a {font-size: 14px; color: #fff; font-weight: 400; text-transform: uppercase; margin: 30px 55px; position: relative; float: left; letter-spacing: 1px;}
 .nav a.active-link {font-weight: 700;}
 .nav a::before {position: absolute;top: 0;left: 0;overflow: hidden;max-width: 0;border-bottom: 2px solid #b1b1b1;color: #b1b1b1;content: attr(data-hover);-webkit-transition: max-width 0.5s;-moz-transition: max-width 0.5s;transition: max-width 0.5s;}
 .nav a:hover::before,.nav a:focus::before {max-width: 100%;}
@@ -188,7 +188,7 @@ header.bg-white .nav .dropdown a:hover {color: #fff; background: #000; padding-l
 .guote-block {position: relative; float: left; width: 100%; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 100px 100px 90px 100px; text-align: center;}
 .component-service {position: relative; float: left; width: 100%; padding: 80px 0px;}
 .component-service h2 {padding-bottom: 45px;padding-left: 46%;}
-h2.wow.fadeInLeft {padding-right: 46%;margin-top: 0%;}
+h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 .serv-padding .service-block {padding-top: 65px;}
 .service-block {position: relative; float: left; width: 100%; padding: 5px 0px 70px; text-align: center;}
 .service-block img {width: 50px; font-size: 50px; display: inline-block; float: none; margin-bottom: 45px;padding-top: 20px;}
@@ -220,7 +220,7 @@ h2.wow.fadeInLeft {padding-right: 46%;margin-top: 0%;}
 .team h2 {padding-bottom: 40px;}
 .team-block {position: relative; float: left; width: 100%; padding-right: 30px; overflow: hidden;}
 .team-img {position: relative; float: left; width: 50%;}
-.team-img img {width: 100%; height: auto; padding-bottom:50px;}
+.team-img img {width: 100%; height: auto; padding-bottom:50px;padding-left: 60px;}
 .team-text {position: relative; float: left; width: 50%; padding: 50px 0px 84px 30px;}
 .team-text i {position: relative; float: left; width: 100%; padding-bottom: 12px;}
 .team-text h5 {position: relative; float: left; width: 100%; padding-top: 10px;}
@@ -375,7 +375,7 @@ footer {position: relative; float: left; width: 100%;}
 .footer-block ul li a {color: #000;}
 .footer-block ul li a:hover {color: #adacac; padding-bottom: 3px; border-bottom: 1px solid #b1b1b1; color: #b1b1b1;}
 .copyright {position: relative; float: left; width: 100%; padding: 70px 0px 60px; }
-.copyright span {position: relative; float: left; font-size: 14px; font-weight: 100; color: #000;padding-left: 36%;}
+.copyright span {position: relative; float: left; font-size: 14px; font-weight: 100; color: #000;padding-left: 37%;}
 .copyright img {width: 50px;  position: relative; float: left; margin-top: 0px; margin-left: 15px;}
 
 
@@ -414,7 +414,7 @@ footer {position: relative; float: left; width: 100%;}
 
 .tabs-group-1 {position: relative; float: left; width: 100%;}
 .clients-logo {position: relative; float: none; text-align: center;}
-.clients-logo img {position: relative; float: none; display: inline-block;}
+.clients-logo img {position: relative; float: none; display: inline-block; width: 150px;}
 #clients {min-height: 80px;}
 
 @media screen and (max-width: 1430px) {
@@ -425,7 +425,7 @@ footer {position: relative; float: left; width: 100%;}
 }
 @media screen and (max-width: 1200px) {
 	.nav { padding-top: 0px;}
-    .nav a {margin: 25px 40px 0px 41px; padding-top: 0px;}
+    .nav a {margin: 25px 36px 0px 41px; padding-top: 0px;}
 	.main-wrapp {padding-top: 0px;}
 	header {position: fixed; left: 0px; top: -1px; height: 75px; width: 100%; z-index: 100; transition: all 0.4s ease-in;-webkit-transition: all 0.4s ease-in;-moz-transition: all 0.4s ease-in;-o-transition: all 0.4s ease-in;-ms-transition: all 0.4s ease-in;}
 	header .header-logo {margin: 25px;}
@@ -437,6 +437,7 @@ footer {position: relative; float: left; width: 100%;}
 	.team-text {padding-top: 0px;}
 	.team-text p {padding-top: 40px;}
 	.choose-block {padding: 50px 20px 60px;}
+	.copyright span {padding-left: 35%;}
 
 }
 @media screen and (max-width: 992px) {
@@ -476,6 +477,7 @@ footer {position: relative; float: left; width: 100%;}
 	.components .blog {padding-top: 80px;} 
 	.components .counter {padding-top: 80px;}
 	.components .price {padding-top: 80px;}
+	.copyright span {padding-left: 30%;}
 	
 	
 	.coll_4 {position: relative; float: left; width: 100%;}
@@ -552,13 +554,14 @@ footer {position: relative; float: left; width: 100%;}
 	.components .component-choose .pagination {display: block;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
+
 	
     .mobile-logo {left: 30px;}
 	.mobile-menu {right: 35px;}
 	.footer-block {width: 100%; text-align: center; padding-top: 80px;}
 	.footer-block ul {width: 100%;}
 	.copyright {width: 100%; text-align: center;}
-	.copyright span {position: relative; float: none; display: inline-block;}
+	.copyright span {position: relative; float: none; display: inline-block;padding-left: 2%;}
 	.copyright img {float: none; display: inline-block;}
 	
 	.fillter-button {padding-top: 100px;}
@@ -800,6 +803,7 @@ footer {position: relative; float: left; width: 100%;}
     .share-button a {margin: 0px 20px;}
 	.comm-block {margin-bottom: 25px;}
 	.comm-block:nth-child(2n+1){padding-left: 0px;}
+	.component-service h2 { padding-left: 39px;}
 	
 
 }
@@ -956,7 +960,7 @@ button.mfp-close, button.mfp-arrow {background: none;}
 	.home-mini .about {padding-top: 60px;}
 	.about h2 {padding-bottom: 30px;}
 	.home-mini .component-service {padding-top: 60px;}
-	.component-service h2 {padding-bottom: 30px;}
+	.component-service h2 {padding-bottom: 30px; padding-left: 43%;}
 	.components-page {padding-top: 60px;}
 }
 
