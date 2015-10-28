@@ -56,6 +56,7 @@ article, section, footer, header, figure, aside, hgroup, nav{display:block;}
 header,nav,article,footer,section,aside,figure,figcaption{display:block}
 button {outline: none; border: none; box-shadow: none;}
 
+
 /*------------------------------------------------------*/
 /*----------------------BACKGROUND----------------------*/
 
@@ -67,6 +68,10 @@ button {outline: none; border: none; box-shadow: none;}
 .bg-bg-chrome{background-position: 50% 0px; background-repeat: no-repeat; background-attachment: scroll; -webkit-background-size: cover;-moz-background-size: cover; -o-background-size: cover;-ms-background-size: cover; background-size: cover; position:fixed;}
 .bg-bg-chrome.act{position: absolute;}
 .clip{clip: rect(auto, auto, auto, auto); height: 100%; position: absolute; width: 100%;}
+a.btn.btn-sm.btn-default {
+    float: right;
+
+}
 
 .full-width {position:relative; float:left; width:100%;}
 .full-height {height:100%; position:relative; float:left;}
@@ -147,6 +152,8 @@ header.bg-dark .dropdown a:hover {background: #000; color: #fff; padding-left: 8
 header.bg-dark {margin: 0 !important; position: fixed !important;}
 .mobile-menu {position: fixed; top: 32px; right: 30px; cursor: pointer; display: none;}
 .mobile-logo {position: absolute; left: 0px; top: 16px; display: none;}
+.botton_en_sm {display: none;}
+.botton_es_sm {display: none;}
 .mobile-logo img{ width: 100px;padding-top: 8px;}
 .close-menu {position: relative; float: left; width: 100%; padding: 30px 0px; display: none;}
 .close-menu img {position: relative; float: none; display: inline-block; width: 26px; height: 26px; cursor: pointer;}
@@ -158,6 +165,28 @@ img.logo-smal.show-l { width: 100px; height: 28px;}
 header.bg-white .nav .dropdown a {position: relative; float: left; width: 100%; padding: 15px 0px; margin: 0px; color: #3c3c3c; letter-spacing: 0px;}
 .submenu:hover .dropdown {visibility: visible; transform: translateY(0) rotateX(0deg);-webkit-transform: translateY(0) rotateX(0deg);-moz-transform: translateY(0) rotateX(0deg);-o-transform: translateY(0) rotateX(0deg);-ms-transform: translateY(0) rotateX(0deg); opacity: 1;}
 header.bg-white .nav .dropdown a:hover {color: #fff; background: #000; padding-left: 8px;}
+
+.botton_en img{position: relative;float: right;text-align: right;padding-right: 80px;padding-top: 10px
+}
+.botton_es img{float: right;text-align: right;padding-right: 10px;padding-top: 10px;
+}
+
+
+/*.botton_en img{
+	float: right;
+	text-align: right;
+	padding-right: 85px;
+	padding-top: 10px;
+}
+
+.botton_es img{
+	float: right;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+
+
+}*/
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 02 - COMPONENTS */
@@ -174,6 +203,8 @@ header.bg-white .nav .dropdown a:hover {color: #fff; background: #000; padding-l
 .components .main-slider .pagination {display: none;}
 .component-slider {position: relative; width: 100%; text-align: center; max-width: 1507px; margin: 0 auto;}
 .component-slider .swiper-slide {height: 737px;}
+.swiper-slide .swiper-slide-visible .swiper-slide-active .style{ 
+width: 80%;}
 
 .component-features {position: relative; width: 100%; float: left; padding-bottom: 88px;}
 .component-features h2 {padding-bottom: 45px;}
@@ -328,7 +359,11 @@ h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 .work-block:hover .layer {opacity: 1; transform: translateX(0);-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);}
 .work-block:hover h5 {padding-left: 0px;}
 .work-block:hover p {padding-right: 0px;}
- 
+ #top-social li a {
+    float: none;
+    width: 40px;
+    font-weight: 700;
+    color: #666;}
 .counter {position: relative; float: left; width: 100%; padding-top: 70px;}
 .counter h2 {padding-bottom: 50px;}
 .counter-block {position: relative; float: left; width: 100%; text-align: center;}
@@ -417,11 +452,22 @@ footer {position: relative; float: left; width: 100%;}
 .clients-logo img {position: relative; float: none; display: inline-block; width: 150px;}
 #clients {min-height: 80px;}
 
+@media screen and (max-width: 4000px) {
+	.botton_es_smll{display: none;}
+	.botton_en_smll{display: none;}
+	.botton_en { padding-right: 110px;}
+	.botton_es {padding-right: 15px}
+
+
 @media screen and (max-width: 1430px) {
     .arrow .slide-prev {left: 20px;}
     .arrow .slide-next {right: 20px;}
 	.clients .arrow .slide-next {top: 65px;}
 	.clients .arrow .slide-prev {top: 65px;}
+	.botton_es_smll{display: none;}
+	.botton_en_smll{display: none;}
+	.botton_en { padding-right: 50px;}
+	.botton_es {padding-right: 15px}
 }
 @media screen and (max-width: 1200px) {
 	.nav { padding-top: 0px;}
@@ -432,6 +478,10 @@ footer {position: relative; float: left; width: 100%;}
 	header .logo-smal.show-l {opacity: 1; margin-top: -9px;}
 	.slide-next {right: 20px;}
 	.slide-prev {left: 20px;}
+	.botton_en { padding-right: 40px;}
+	.botton_es {padding-right: 15px}
+	.botton_es_smll{display: none;}
+	.botton_en_smll{display: none;}
 	
 	.team-block {padding-right: 0px;}
 	.team-text {padding-top: 0px;}
@@ -442,8 +492,13 @@ footer {position: relative; float: left; width: 100%;}
 }
 @media screen and (max-width: 992px) {
 	.header-logo {display: none;}
+.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right:  45px;}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 10px;}
 	.mobile-logo {display: block; position: fixed; left: 30px;}
-	.mobile-menu {display: block;}
+    .mobile-menu {display: block;}
+	.botton_en { display: none;}
+	.botton_es {display:none;}
+
 /*	.close-menu {display: block;}*/
 	.arrow-down {display: inline-block;}
 	 header {height: 80px;}
@@ -514,6 +569,8 @@ footer {position: relative; float: left; width: 100%;}
 	.clients-logo {width: 100%;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 25px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px;}
 }
 @media screen and (max-width: 768px) {
 	.components {padding-top: 0px;}
@@ -554,6 +611,8 @@ footer {position: relative; float: left; width: 100%;}
 	.components .component-choose .pagination {display: block;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px;}
 
 	
     .mobile-logo {left: 30px;}
@@ -577,6 +636,8 @@ footer {position: relative; float: left; width: 100%;}
 	.main-wrapp #choose .pagination {display: block; bottom: 0px;}
 	.component-slider .pagination {display: block;}
 	#instansive_34d23e322f .grid6 li {width: 33.333%!important;}
+	.botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 60px;}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 10px;}
 }
 @media screen and (max-width: 620px) {
 	.tabs-group-2 .right-content {height: 100%; max-height: 100%;}
@@ -650,6 +711,7 @@ footer {position: relative; float: left; width: 100%;}
 .home-video .twitter {margin-top: 10px;}
 .load-container {position: relative; float: left; width: 100%;}
 
+
 @media screen and (max-width: 991px) {
     .home-video .instagram {padding-top: 60px;}
 	.home-video .component-service {padding-top: 0px;}
@@ -695,11 +757,15 @@ footer {position: relative; float: left; width: 100%;}
 	.date-square span {margin: 0px 25px; font-size: 40px;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 50px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px;}
 }
 @media screen and (max-width: 400px) { 
    .date-square span {margin: 0 20px; font-size: 30px;}
    .components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
+
+
 
 
 	
@@ -757,10 +823,13 @@ footer {position: relative; float: left; width: 100%;}
 }
 @media screen and (max-width: 992px) {
 	.blog-title {margin-top: 80px;}
+
 }
 @media screen and (max-width: 768px) {
     .blog-item {margin-bottom: 40px;}
 	.footer-blog .footer-block {padding-top: 40px;}
+	.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 65px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 15px;}
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -962,7 +1031,21 @@ button.mfp-close, button.mfp-arrow {background: none;}
 	.home-mini .component-service {padding-top: 60px;}
 	.component-service h2 {padding-bottom: 30px; padding-left: 43%;}
 	.components-page {padding-top: 60px;}
+	.botton_en img{ padding-bottom: 30px;}
+	
 }
+
+
+
+    
+
+   
+   
+    
+
+ 
+
+
 
 
 
