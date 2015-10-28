@@ -56,6 +56,7 @@ article, section, footer, header, figure, aside, hgroup, nav{display:block;}
 header,nav,article,footer,section,aside,figure,figcaption{display:block}
 button {outline: none; border: none; box-shadow: none;}
 
+
 /*------------------------------------------------------*/
 /*----------------------BACKGROUND----------------------*/
 
@@ -67,6 +68,10 @@ button {outline: none; border: none; box-shadow: none;}
 .bg-bg-chrome{background-position: 50% 0px; background-repeat: no-repeat; background-attachment: scroll; -webkit-background-size: cover;-moz-background-size: cover; -o-background-size: cover;-ms-background-size: cover; background-size: cover; position:fixed;}
 .bg-bg-chrome.act{position: absolute;}
 .clip{clip: rect(auto, auto, auto, auto); height: 100%; position: absolute; width: 100%;}
+a.btn.btn-sm.btn-default {
+    float: right;
+
+}
 
 .full-width {position:relative; float:left; width:100%;}
 .full-height {height:100%; position:relative; float:left;}
@@ -83,7 +88,7 @@ h3 {font-size: 24px; line-height: 22px; font-weight: 100; text-transform: upperc
 h4 {font-family: 'Lato',sans-serif; font-size: 18px; font-style:italic; line-height: 20px;  font-weight: 400; text-transform: inherit;color: #42413e;padding-top: 15px;}
 h5 {font-size: 14px; line-height: 22px; font-weight: 400; text-transform: uppercase;}
 h6 {font-size: 13px; line-height: 16px;}
-p {font-size: 14px; line-height: 25px; color:#6b6b6b; font-weight: 100;}
+p {font-size: 15px; line-height: 25px; color:#6b6b6b; font-weight: 101;letter-spacing: 0.2px;}
 ul {position: relative; float: left;}
 ul li a:hover {text-decoration: none; transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in;-ms-transition: all 0.3s ease-in;}
 input {font-size: 14px; border: none; background: none;transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out;-o-transition: all 0.35s ease-out;-webkit-transition: all 0.35s ease-out;-ms-transition: all 0.35s ease-out;}
@@ -147,6 +152,8 @@ header.bg-dark .dropdown a:hover {background: #000; color: #fff; padding-left: 8
 header.bg-dark {margin: 0 !important; position: fixed !important;}
 .mobile-menu {position: fixed; top: 32px; right: 30px; cursor: pointer; display: none;}
 .mobile-logo {position: absolute; left: 0px; top: 16px; display: none;}
+.botton_en_sm {display: none;}
+.botton_es_sm {display: none;}
 .mobile-logo img{ width: 100px;padding-top: 8px;}
 .close-menu {position: relative; float: left; width: 100%; padding: 30px 0px; display: none;}
 .close-menu img {position: relative; float: none; display: inline-block; width: 26px; height: 26px; cursor: pointer;}
@@ -158,6 +165,28 @@ img.logo-smal.show-l { width: 100px; height: 28px;}
 header.bg-white .nav .dropdown a {position: relative; float: left; width: 100%; padding: 15px 0px; margin: 0px; color: #3c3c3c; letter-spacing: 0px;}
 .submenu:hover .dropdown {visibility: visible; transform: translateY(0) rotateX(0deg);-webkit-transform: translateY(0) rotateX(0deg);-moz-transform: translateY(0) rotateX(0deg);-o-transform: translateY(0) rotateX(0deg);-ms-transform: translateY(0) rotateX(0deg); opacity: 1;}
 header.bg-white .nav .dropdown a:hover {color: #fff; background: #000; padding-left: 8px;}
+
+.botton_en img{position: relative;float: right;text-align: right;padding-right: 10px;padding-top: 10px
+}
+.botton_es img{float: right;text-align: right;padding-right: 80px;padding-top: 10px;
+}
+
+
+/*.botton_en img{
+	float: right;
+	text-align: right;
+	padding-right: 85px;
+	padding-top: 10px;
+}
+
+.botton_es img{
+	float: right;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+
+
+}*/
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 02 - COMPONENTS */
@@ -173,7 +202,9 @@ header.bg-white .nav .dropdown a:hover {color: #fff; background: #000; padding-l
 .components .main-slider {margin: 110px 0px 133px;}
 .components .main-slider .pagination {display: none;}
 .component-slider {position: relative; width: 100%; text-align: center; max-width: 1507px; margin: 0 auto;}
-.component-slider .swiper-slide {height: 737px;}
+.component-slider .swiper-slide {height: 790px;}
+.swiper-slide .swiper-slide-visible .swiper-slide-active .style{ 
+width: 80%;}
 
 .component-features {position: relative; width: 100%; float: left; padding-bottom: 88px;}
 .component-features h2 {padding-bottom: 45px;}
@@ -192,7 +223,7 @@ h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 .serv-padding .service-block {padding-top: 65px;}
 .service-block {position: relative; float: left; width: 100%; padding: 5px 0px 70px; text-align: center;}
 .service-block img {width: 50px; font-size: 50px; display: inline-block; float: none; margin-bottom: 45px;padding-top: 20px;}
-.service-block p {padding-top: 35px;}
+.service-block p {padding-top: 35px;color: #a2a2a2;}
 .border-top {border-top: 1px solid #000;}
 
 .component-choose {position: relative; width: 100%; float: left;}
@@ -220,12 +251,12 @@ h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 .team h2 {padding-bottom: 40px;}
 .team-block {position: relative; float: left; width: 100%; padding-right: 30px; overflow: hidden;}
 .team-img {position: relative; float: left; width: 50%;}
-.team-img img {width: 100%; height: auto; padding-bottom:50px;padding-left: 60px;}
+.team-img img {width: 100%; height: auto; padding-bottom:50px;padding-left: 20px;padding-right: 20px;}
 .team-text {position: relative; float: left; width: 50%; padding: 50px 0px 84px 30px;}
 .team-text i {position: relative; float: left; width: 100%; padding-bottom: 12px;}
 .team-text h5 {position: relative; float: left; width: 100%; padding-top: 10px;}
 .line {position: relative; float: left; width: 25px; height: 1px; background: #584a46;}
-.team-text p {position: relative; float: left; width: 100%; padding-top: 60px;}
+.team-text p {position: relative; float: left; width: 100%; padding-top: 60px;color: #a2a2a2;}
 .team-text a {position: absolute; bottom: 0px; font-size: 13px; color: #42413e; left: 30px; width: 100%; padding-bottom: 25px; border-bottom: 1px solid #000;}
 .team-text a:hover {color: #b1b1b1;}
 .testimonials {position: relative; float: left; width: 100%;}
@@ -328,7 +359,11 @@ h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 .work-block:hover .layer {opacity: 1; transform: translateX(0);-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);}
 .work-block:hover h5 {padding-left: 0px;}
 .work-block:hover p {padding-right: 0px;}
- 
+ #top-social li a {
+    float: none;
+    width: 40px;
+    font-weight: 700;
+    color: #666;}
 .counter {position: relative; float: left; width: 100%; padding-top: 70px;}
 .counter h2 {padding-bottom: 50px;}
 .counter-block {position: relative; float: left; width: 100%; text-align: center;}
@@ -417,21 +452,36 @@ footer {position: relative; float: left; width: 100%;}
 .clients-logo img {position: relative; float: none; display: inline-block; width: 150px;}
 #clients {min-height: 80px;}
 
+@media screen and (max-width: 4000px) {
+	.botton_es_smll{display: none;}
+	.botton_en_smll{display: none;}
+	.botton_en { padding-right: 15px;}
+	.botton_es {padding-right: 110px}
+
+
 @media screen and (max-width: 1430px) {
     .arrow .slide-prev {left: 20px;}
     .arrow .slide-next {right: 20px;}
 	.clients .arrow .slide-next {top: 65px;}
 	.clients .arrow .slide-prev {top: 65px;}
+	.botton_es_smll{display: none;}
+	.botton_en_smll{display: none;}
+	.botton_en { padding-right: 15px;}
+	.botton_es {padding-right: 110px}
 }
 @media screen and (max-width: 1200px) {
 	.nav { padding-top: 0px;}
-    .nav a {margin: 25px 36px 0px 41px; padding-top: 0px;}
+    .nav a {margin: 25px 33px 0px 41px; padding-top: 0px;}
 	.main-wrapp {padding-top: 0px;}
 	header {position: fixed; left: 0px; top: -1px; height: 75px; width: 100%; z-index: 100; transition: all 0.4s ease-in;-webkit-transition: all 0.4s ease-in;-moz-transition: all 0.4s ease-in;-o-transition: all 0.4s ease-in;-ms-transition: all 0.4s ease-in;}
 	header .header-logo {margin: 25px;}
 	header .logo-smal.show-l {opacity: 1; margin-top: -9px;}
 	.slide-next {right: 20px;}
 	.slide-prev {left: 20px;}
+	.botton_en { padding-right: 15px;}
+	.botton_es {padding-right: 0px}
+	.botton_es_smll{display: none;}
+	.botton_en_smll{display: none;}
 	
 	.team-block {padding-right: 0px;}
 	.team-text {padding-top: 0px;}
@@ -442,8 +492,13 @@ footer {position: relative; float: left; width: 100%;}
 }
 @media screen and (max-width: 992px) {
 	.header-logo {display: none;}
+.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right:  15px;}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 50px;}
 	.mobile-logo {display: block; position: fixed; left: 30px;}
-	.mobile-menu {display: block;}
+    .mobile-menu {display: block;}
+	.botton_en { display: none;}
+	.botton_es {display:none;}
+
 /*	.close-menu {display: block;}*/
 	.arrow-down {display: inline-block;}
 	 header {height: 80px;}
@@ -514,6 +569,8 @@ footer {position: relative; float: left; width: 100%;}
 	.clients-logo {width: 100%;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 25px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px;}
 }
 @media screen and (max-width: 768px) {
 	.components {padding-top: 0px;}
@@ -554,6 +611,8 @@ footer {position: relative; float: left; width: 100%;}
 	.components .component-choose .pagination {display: block;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px;}
 
 	
     .mobile-logo {left: 30px;}
@@ -577,6 +636,8 @@ footer {position: relative; float: left; width: 100%;}
 	.main-wrapp #choose .pagination {display: block; bottom: 0px;}
 	.component-slider .pagination {display: block;}
 	#instansive_34d23e322f .grid6 li {width: 33.333%!important;}
+	.botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 10px;}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 60px;}
 }
 @media screen and (max-width: 620px) {
 	.tabs-group-2 .right-content {height: 100%; max-height: 100%;}
@@ -588,10 +649,15 @@ footer {position: relative; float: left; width: 100%;}
    .logo img {padding-top: 20px;}
 }
 @media screen and (max-width: 550px) {
+	.
+.team-text p {position: relative; float: left; width: 100%; padding-top: 60px;color: #a2a2a2;}
+.team-text a {position: absolute; bottom: 0px; font-size: 13px; color: #42413e; left: 30px; width: 100%; padding-bottom: 25px; border-bottom: 1px solid #000;padding-left: 20px;}
+.team-text a:hover {color: #b1b1b1;}
     .team-img {width: 100%;}
-	.team-text {width: 100%; padding-left: 0px;}
-	.team-text p {padding-top: 20px;}
+	.team-text {width: 100%; padding-left: 20px;}
+	.team-text p {padding-top: 20px;padding-left: 20px}
 	.team-text a {left: 0px;}
+	.team-text h5 {padding-left: 20px;}
 	.vision {padding: 70px 10px 40px;}
 	.mission-text {padding-top: 40px;}
 	.twitter {margin-top: 40px;}
@@ -650,6 +716,7 @@ footer {position: relative; float: left; width: 100%;}
 .home-video .twitter {margin-top: 10px;}
 .load-container {position: relative; float: left; width: 100%;}
 
+
 @media screen and (max-width: 991px) {
     .home-video .instagram {padding-top: 60px;}
 	.home-video .component-service {padding-top: 0px;}
@@ -695,11 +762,15 @@ footer {position: relative; float: left; width: 100%;}
 	.date-square span {margin: 0px 25px; font-size: 40px;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 50px;}
 }
 @media screen and (max-width: 400px) { 
    .date-square span {margin: 0 20px; font-size: 30px;}
    .components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
+
+
 
 
 	
@@ -751,16 +822,27 @@ footer {position: relative; float: left; width: 100%;}
 .blog-wrapper {position: relative; float: left; width: 100%;}
 .freak_logo {padding-left: 0%; }
 .freak_logo img{width: 100%; padding-top:100px; }
+.botton_en img { padding-right: 15px;padding-bottom: 5px; }
+.botton_es img{ padding-right: 15px; padding-bottom: 5px;}
+}    
+
 
 @media screen and (max-width: 1200px) {
     .blog-title {margin-top: 114px;} 
-}
+    .botton_en img { padding-right: 15px;padding-bottom: 5px; }
+    .botton_es img{ padding-right: 78px; padding-bottom: 5px;}
+}    
+
+
 @media screen and (max-width: 992px) {
 	.blog-title {margin-top: 80px;}
+
 }
 @media screen and (max-width: 768px) {
     .blog-item {margin-bottom: 40px;}
 	.footer-blog .footer-block {padding-top: 40px;}
+	.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 15px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 65px;}
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -770,7 +852,7 @@ footer {position: relative; float: left; width: 100%;}
 .post-text {position: relative; float: left; width: 100%; padding: 125px 0px 120px;}
 .post-text h1 {text-align: center; padding-bottom: 15px;}
 .post-text h5 {font-size: 14px; font-weight: 300; text-align: center; padding-bottom: 62px; width: 100%; position: relative; float: none; display: inline-block; text-transform: none;}
-.post-text p {padding-bottom: 28px;}
+.post-text p {padding-bottom: 28px;word-spacing: 2px;}
 .post-text q {border-left: 1px solid #000; position: relative; float: left; width: 100%; padding-left: 40px; margin-bottom: 28px;}
 .tags-button {position: relative; float: left; width: 100%; text-align: center; padding-top: 60px;}
 .tags-button span {position: relative; float: none; display: inline-block; font-size: 14px;}
@@ -886,9 +968,9 @@ body.fix {overflow-y: hidden;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 .sudio-baner {position: relative; max-width: 1507px; width: 100%; margin: 0 auto;}
-.sudio-baner img {width: 100%; height: auto; margin-top: 90px;}
+.sudio-baner img {width: 100%; height: 50%; margin-top: 90px;}
 .stutio-desc {position: relative; float: left; width: 100%; padding-top: 130px; padding-bottom: 120px;}
-.stutio-desc p {padding: 15px 0px;}
+.stutio-desc p {padding: 15px 0px;color: #a2a2a2;}
 .stutio-desc h5 {padding-bottom: 25px; letter-spacing: 2px;}
 .sudio .team-block {margin-bottom: 45px;}
 .sudio .vision h5 {font-size: 24px;}
@@ -962,7 +1044,21 @@ button.mfp-close, button.mfp-arrow {background: none;}
 	.home-mini .component-service {padding-top: 60px;}
 	.component-service h2 {padding-bottom: 30px; padding-left: 43%;}
 	.components-page {padding-top: 60px;}
+	.botton_es img{ padding-bottom: 30px;}
+	
 }
+
+
+
+    
+
+   
+   
+    
+
+ 
+
+
 
 
 
