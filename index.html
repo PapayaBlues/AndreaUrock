@@ -17,8 +17,10 @@
             <link href="css/animsition.min.css" rel="stylesheet"/>         
             <link href="css/font.css" rel="stylesheet" type="text/css"/>
             <link href="css/style.css" rel="stylesheet" type="text/css"/>
+            <link rel="stylesheet" href="css/vex.css" />
+            <link rel="stylesheet" href="css/vex-theme-os.css" />
 
-
+     <!-- Facebook -->
      <title>Andrea Urock</title>
   </head>
 <body class="animsition">
@@ -300,6 +302,16 @@ u ʁ o ɔ ʞ</p>
 <script src="js/instansive.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/all.js"></script>
+<script src="js/vex.combined.min.js"></script>
+<script>vex.defaultOptions.className = 'vex-theme-os';</script>
+<script>
+	vex.dialog.confirm({
+	  message: 'Eres mayor de edad ?',
+	  callback: function(value) {
+	    return console.log(value ? 'Successfully destroyed the planet.' : 'Chicken.');
+	  }
+	});
+</script>
 </body>
 
 </html>				   

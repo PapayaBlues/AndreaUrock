@@ -120,7 +120,8 @@
                         	   <a href="#">TRAVEL </a>
                         </div>
                         <div class="share-button">
-                        	<a href="">Facebook</a>
+                        	<!-- <a href="">Facebook</a> -->
+                        	<div class="fb-share-button" data-href="http://andreaurock.com/post_halloween.html" data-layout="button_count"></div>
                         	<a href="">Twitter</a>
                         	<a href="">E-mail</a>
                         </div>
@@ -207,5 +208,13 @@
 <script src="js/jquery.animsition.min.js"></script>
 <script src="js/idangerous.swiper.min.js"></script>
 <script src="js/all.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>				   
