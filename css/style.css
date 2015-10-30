@@ -88,7 +88,7 @@ h3 {font-size: 24px; line-height: 22px; font-weight: 100; text-transform: upperc
 h4 {font-family: 'Lato',sans-serif; font-size: 18px; font-style:italic; line-height: 20px;  font-weight: 400; text-transform: inherit;color: #42413e;padding-top: 15px;}
 h5 {font-size: 14px; line-height: 22px; font-weight: 400; text-transform: uppercase;}
 h6 {font-size: 13px; line-height: 16px;}
-p {font-size: 15px; line-height: 25px; color:#6b6b6b; font-weight: 101;letter-spacing: 0.2px;}
+p {font-size: 16px; line-height: 25px; color:#6b6b6b; font-weight: 101;letter-spacing: 0.2px;}
 ul {position: relative; float: left;}
 ul li a:hover {text-decoration: none; transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in;-ms-transition: all 0.3s ease-in;}
 input {font-size: 14px; border: none; background: none;transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out;-o-transition: all 0.35s ease-out;-webkit-transition: all 0.35s ease-out;-ms-transition: all 0.35s ease-out;}
@@ -166,9 +166,9 @@ header.bg-white .nav .dropdown a {position: relative; float: left; width: 100%; 
 .submenu:hover .dropdown {visibility: visible; transform: translateY(0) rotateX(0deg);-webkit-transform: translateY(0) rotateX(0deg);-moz-transform: translateY(0) rotateX(0deg);-o-transform: translateY(0) rotateX(0deg);-ms-transform: translateY(0) rotateX(0deg); opacity: 1;}
 header.bg-white .nav .dropdown a:hover {color: #fff; background: #000; padding-left: 8px;}
 
-.botton_en img{position: relative;float: right;text-align: right;padding-right: 10px;padding-top: 10px
+.botton_en img{position: relative;float: right;text-align: right;padding-right: 80px;padding-top: 10px
 }
-.botton_es img{float: right;text-align: right;padding-right: 80px;padding-top: 10px;
+.botton_es img{float: right;text-align: right;padding-right: 10px;padding-top: 10px;
 }
 
 
@@ -202,7 +202,7 @@ header.bg-white .nav .dropdown a:hover {color: #fff; background: #000; padding-l
 .components .main-slider {margin: 110px 0px 133px;}
 .components .main-slider .pagination {display: none;}
 .component-slider {position: relative; width: 100%; text-align: center; max-width: 1507px; margin: 0 auto;}
-.component-slider .swiper-slide {height: 790px;}
+.component-slider .swiper-slide {height: 800px;}
 .swiper-slide .swiper-slide-visible .swiper-slide-active .style{ 
 width: 80%;}
 
@@ -249,7 +249,7 @@ h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 
 .team {position: relative; width: 100%; float: left; padding-bottom: 105px;}
 .team h2 {padding-bottom: 40px;}
-.team-block {position: relative; float: left; width: 100%; padding-right: 30px; overflow: hidden;}
+.team-block {position: relative; float: left; width: 100%; padding-right: 50px;padding-left: 50px; overflow: hidden;}
 .team-img {position: relative; float: left; width: 50%;}
 .team-img img {width: 100%; height: auto; padding-bottom:50px;padding-left: 20px;padding-right: 20px;}
 .team-text {position: relative; float: left; width: 50%; padding: 50px 0px 84px 30px;}
@@ -455,8 +455,8 @@ footer {position: relative; float: left; width: 100%;}
 @media screen and (max-width: 4000px) {
 	.botton_es_smll{display: none;}
 	.botton_en_smll{display: none;}
-	.botton_en { padding-right: 15px;}
-	.botton_es {padding-right: 110px}
+	.botton_en { padding-right: 110px;}
+	.botton_es {padding-right: 15px}
 
 
 @media screen and (max-width: 1430px) {
@@ -466,8 +466,8 @@ footer {position: relative; float: left; width: 100%;}
 	.clients .arrow .slide-prev {top: 65px;}
 	.botton_es_smll{display: none;}
 	.botton_en_smll{display: none;}
-	.botton_en { padding-right: 15px;}
-	.botton_es {padding-right: 110px}
+	.botton_en { padding-right: 80px;}
+	.botton_es {padding-right: 15px}
 }
 @media screen and (max-width: 1200px) {
 	.nav { padding-top: 0px;}
@@ -478,8 +478,8 @@ footer {position: relative; float: left; width: 100%;}
 	header .logo-smal.show-l {opacity: 1; margin-top: -9px;}
 	.slide-next {right: 20px;}
 	.slide-prev {left: 20px;}
-	.botton_en { padding-right: 15px;}
-	.botton_es {padding-right: 0px}
+	.botton_en { padding-right: 40px;}
+	.botton_es {padding-right: 15px}
 	.botton_es_smll{display: none;}
 	.botton_en_smll{display: none;}
 	
@@ -492,8 +492,8 @@ footer {position: relative; float: left; width: 100%;}
 }
 @media screen and (max-width: 992px) {
 	.header-logo {display: none;}
-.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right:  15px;}
-	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 50px;}
+.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right:  45px;}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 10px;}
 	.mobile-logo {display: block; position: fixed; left: 30px;}
     .mobile-menu {display: block;}
 	.botton_en { display: none;}
@@ -569,8 +569,8 @@ footer {position: relative; float: left; width: 100%;}
 	.clients-logo {width: 100%;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 25px;}
-   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px}
-	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px;}
 }
 @media screen and (max-width: 768px) {
 	.components {padding-top: 0px;}
@@ -611,8 +611,8 @@ footer {position: relative; float: left; width: 100%;}
 	.components .component-choose .pagination {display: block;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
-   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px}
-	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 45px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px;}
 
 	
     .mobile-logo {left: 30px;}
@@ -636,8 +636,8 @@ footer {position: relative; float: left; width: 100%;}
 	.main-wrapp #choose .pagination {display: block; bottom: 0px;}
 	.component-slider .pagination {display: block;}
 	#instansive_34d23e322f .grid6 li {width: 33.333%!important;}
-	.botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 10px;}
-	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 60px;}
+	.botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 60px;}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 10px;}
 }
 @media screen and (max-width: 620px) {
 	.tabs-group-2 .right-content {height: 100%; max-height: 100%;}
@@ -762,8 +762,8 @@ footer {position: relative; float: left; width: 100%;}
 	.date-square span {margin: 0px 25px; font-size: 40px;}
 	.components header {position: fixed; float: left; width: 100%; margin-top: 0px; opacity: .8;}
    .logo img {padding-top: 20px;}
-   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px}
-	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 50px;}
+   .botton_en_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 50px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 30px;padding-right: 15px;}
 }
 @media screen and (max-width: 400px) { 
    .date-square span {margin: 0 20px; font-size: 30px;}
@@ -822,15 +822,15 @@ footer {position: relative; float: left; width: 100%;}
 .blog-wrapper {position: relative; float: left; width: 100%;}
 .freak_logo {padding-left: 0%; }
 .freak_logo img{width: 100%; padding-top:100px; }
-.botton_en img { padding-right: 15px;padding-bottom: 5px; }
+.botton_en img { padding-right: 50px;padding-bottom: 5px; }
 .botton_es img{ padding-right: 15px; padding-bottom: 5px;}
 }    
 
 
 @media screen and (max-width: 1200px) {
     .blog-title {margin-top: 114px;} 
-    .botton_en img { padding-right: 15px;padding-bottom: 5px; }
-    .botton_es img{ padding-right: 78px; padding-bottom: 5px;}
+    .botton_en img { padding-right: 80px;padding-bottom: 5px; }
+    .botton_es img{ padding-right: 15px; padding-bottom: 5px;}
 }    
 
 
@@ -841,8 +841,8 @@ footer {position: relative; float: left; width: 100%;}
 @media screen and (max-width: 768px) {
     .blog-item {margin-bottom: 40px;}
 	.footer-blog .footer-block {padding-top: 40px;}
-	.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 15px}
-	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 65px;}
+	.botton_en_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 65px}
+	.botton_es_smll{display: block;position:relative;float: right;padding-top: 33px;padding-right: 15px;}
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -970,7 +970,7 @@ body.fix {overflow-y: hidden;}
 .sudio-baner {position: relative; max-width: 1507px; width: 100%; margin: 0 auto;}
 .sudio-baner img {width: 100%; height: 50%; margin-top: 90px;}
 .stutio-desc {position: relative; float: left; width: 100%; padding-top: 130px; padding-bottom: 120px;}
-.stutio-desc p {padding: 15px 0px;color: #a2a2a2;}
+.stutio-desc p {padding: 35px 0px;color: #a2a2a2;font-size: 18px;word-spacing: 2px;}
 .stutio-desc h5 {padding-bottom: 25px; letter-spacing: 2px;}
 .sudio .team-block {margin-bottom: 45px;}
 .sudio .vision h5 {font-size: 24px;}
@@ -1022,6 +1022,7 @@ button.mfp-close, button.mfp-arrow {background: none;}
 	.sudio .component-service {padding-top: 0px;}
 	.service-block {padding: 25px 0px;}
 	.team h2 {padding-bottom: 35px;}
+	.team-block{padding-right: 30px;}
 	.sudio .team-block {margin-bottom: 0px;}
 	.component-choose h2 {padding-bottom: 35px;}
 	.main-wrapp .counter {padding-top: 40px;}
@@ -1044,7 +1045,7 @@ button.mfp-close, button.mfp-arrow {background: none;}
 	.home-mini .component-service {padding-top: 60px;}
 	.component-service h2 {padding-bottom: 30px; padding-left: 43%;}
 	.components-page {padding-top: 60px;}
-	.botton_es img{ padding-bottom: 30px;}
+	.botton_en img{ padding-bottom: 30px;}
 	
 }
 
