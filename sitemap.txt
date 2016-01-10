@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://andreaurock.com/</loc>
+  <lastmod>2015-11-04T04:06:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/index.html</loc>
+  <lastmod>2015-11-04T04:06:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/characters.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/freektopia.html</loc>
+  <lastmod>2015-10-31T07:53:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/about.html</loc>
+  <lastmod>2015-10-31T06:34:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/contact.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_cat_samurai.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_the_guide.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_wimper.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_black_stone.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_pistol_girl.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_the_silence_club.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_inmersed.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_submerged.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/art_d_n_l.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/letras_mojadas.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/papaya_detail.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/the_rabbit.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/frank_detail.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/honey_bunny.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/alice_detail.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/imaru_detail.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/any_detail.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/eve_detail.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_1.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_2.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_3.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_4.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_5.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_6.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_7.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_8.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_9.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_10.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_11.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/pix_slider_12.html</loc>
+  <lastmod>2015-10-30T23:22:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://andreaurock.com/post_halloween.html</loc>
+  <lastmod>2015-10-31T07:43:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
