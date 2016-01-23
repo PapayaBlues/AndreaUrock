@@ -333,8 +333,9 @@ h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 .block-list img {width: 100%; height: auto; margin-bottom: 40px;}
 .block-list a {color: #4d4d4d;}
 .block-list a:hover {color: #b1b1b1; border-bottom: 1px solid #b1b1b1; padding-bottom: 3px;}
-.block-list h6 {font-size: 14px; text-transform: none; color: #a2a2a2; padding: 10px 0px 35px; display: block; position: relative; float: left; width: 100%;}
-.block-list p {color: #a2a2a2; width: 100%; position: relative; float: left;}
+.block-list h6 {font-size: 1px; text-transform: none; color: #a2a2a2; padding: 10px 0px 35px; display: block; position: relative; float: left; width: 100%;}
+.block-list p {color: #a2a2a2; width: 100%; position: relative;text-align: inherit;} 
+    
 .blog-cat {font-size: 12px; color: #a0a0a0; text-transform: uppercase; position: relative; float: left; width: 100%; padding-top: 30px;}
 .blog-wrap {position: relative; float: left; width: 100%; padding-top: 75px;}
 .blog-page .fillter-button {padding-top: 80px;}
