@@ -215,6 +215,7 @@ width: 80%;}
 .button:hover img {transform: rotateY(-180deg) translateX(10px);}
 .features-img {position: relative; float: left; width: 100%;}
 .features-img img {width: 100%; height: auto;}
+.ad{padding-left: 50%;}
 
 .guote-block {position: relative; float: left; width: 100%; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 100px 100px 90px 100px; text-align: center;}
 .component-service {position: relative; float: left; width: 100%; padding: 80px 0px;}
@@ -303,6 +304,7 @@ h2.wow.fadeInLeft {padding-left:2%;margin-top: 0%;}
 .txt-block i {position: relative; float: left; width: 100%; padding-bottom: 20px;}
 .txt-block p {position: relative; float: left; width: 100%; padding-bottom: 40px;}
 .txt-block .line {margin-bottom: 20px;}
+.publicity{padding-left: 100px;}
 
 .clearfix:after {content: '.';height: 0;font-size: 0;line-height: 0;display: block;clear: both;overflow: hidden;visibility: hidden;}
 .tabs-content {position: relative; float: left; width: 100%; border-top: 1px solid #000; margin-top: 85px;}
